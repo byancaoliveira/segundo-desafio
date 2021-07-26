@@ -1,1 +1,2 @@
-# desafio2
+# desafio2 Programa realiza cadastro de clientes e produtos. Na página inicial você seleciona sua opção desejada, e será passado para página seguinte onde aparecerá todos os campos para preenchimento de dados, seja cliente ou produto, após digitar as informações solicitadas, pressione o botão "CADASTRAR" e seus dados estarão salvos. 
+Selecione o botão acima "VOLTAR' e estará novamente na página inicial.
