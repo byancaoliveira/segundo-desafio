@@ -1,0 +1,46 @@
+.button {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #d436a0;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 5%;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+#form{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 60%;
+    height: 70vh;
+
+}
+.mainForm {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+}
+
+input {
+    height: 40px;
+}
+
+.cadastrarButton {
+    height: 40px;
+    border:transparent;
+    border-radius: 10px;
+    background-color: rgb(209, 42, 139);
+    color: rgb(250, 246, 246);
+    font-size: medium;
+}

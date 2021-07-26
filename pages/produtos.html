@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="icon" href="../assets/favicon.png" />
+    <script type="text/javascript" src="../script/addProdutos.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style/produto.css">
+    <link rel="stylesheet" type="text/css" href="../style/backbutton.css">
+
+</head>
+<body>
+    <div class="Voltar">
+        <a href="../index.html"class="button">
+            <img class="icon" src="../assets/backicon.png"></img>
+            Voltar
+        </a>
+    </div>
+    
+    <div class="mainForm">
+        
+        <form id="form">
+            <h3>Cadastro dos Produtos</h3>
+            <input type="text" id="código" placeholder="Código">
+            <input type="text" id="nome" placeholder="Nome">
+            <input type="text" id="descrição" placeholder="Descrição">
+            <input type="number" id="quantidade" placeholder="Quantidade">
+            <input type="number" id="preço" placeholder="Preço">
+            <button onclick="cadastraProduto(event)" class="cadastrarButton">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
